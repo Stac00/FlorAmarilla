@@ -1,14 +1,6 @@
 from turtle import *
 import colorsys
 
-# Agregar el texto en la cabecera
-header_text = "PROGRAMEX # BY PROGRAMEX"
-color("white")  # Color del texto
-penup()
-goto(-180, 250)  # Posición del texto
-pendown()
-write(header_text, align="left", font=("Arial", 12, "normal"))
-
 speed(20)
 bgcolor("black")
 h = 0
